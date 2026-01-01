@@ -1,3 +1,87 @@
-QGIS and ArcGIS are the two most widely used GIS (Geographic Information System) platforms, but they differ a lot in philosophy, cost, ecosystem, and typical use cases.
-As QGIS is the free one, that is the one we will use :
-QGIS (Quantum Geographic Information System) is a free, open-source GIS software used to create, edit, analyze, and visualize geographic (spatial) data.
+Introduction to QGIS
+
+QGIS and ArcGIS are the two most widely used Geographic Information System (GIS) platforms.
+They differ significantly in philosophy, cost, ecosystem, and typical use cases.
+
+Since QGIS is free and open-source, it is the software we will use.
+
+QGIS (Quantum Geographic Information System) is a free, open-source GIS application that allows users to create, edit, analyze, and visualize geographic (spatial) data.
+
+How to Use QGIS
+
+
+1. Types of Spatial Data
+
+QGIS works with two main types of geographic data:
+
+  - Raster Data
+
+    Pixel-based data
+
+    Examples:
+
+    Satellite images
+
+    Aerial photographs
+
+    Elevation models
+
+    Each pixel contains a value (color, elevation, temperature, etc.)
+
+  - Vector Data
+
+    Geometry-based data
+
+    Represented by:
+
+      Points (e.g. locations, landmarks)
+
+      Lines (e.g. roads, rivers)
+
+      Polygons (e.g. buildings, administrative boundaries)
+
+2. Data Sources
+
+  - Spatial data can be obtained from open data platforms, such as:
+
+  - opendata.apur.org (urban and territorial data)
+
+3. Ways to Import Data into QGIS
+
+  - There are two main ways to load data into QGIS:
+
+
+
+1. Downloading Data
+
+Download files directly (Shapefile, GeoJSON, GeoTIFF, etc.)
+
+Import them into QGIS from your local computer
+
+2. Using Web Services (Live Data Streams)
+
+Data can be accessed without downloading files
+
+Common GIS web services:
+
+  - WMS / WMTS (map images)
+
+  - WFS (vector features)
+
+  - WCS (raster coverage)
+
+4. Geospatial Web Services
+
+  - The French national mapping agency provides geospatial services via:
+
+  - geoservices.ign.fr
+
+These services allow direct access to official geographic data using:
+
+  - WMS
+
+  - WMTS
+
+  - WFS
+
+  - WCS
